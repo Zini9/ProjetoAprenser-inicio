@@ -20,6 +20,7 @@ a {
 
 .wrapperContainer-dark {
     background-color: #2A2A2A;
+    color: #FAFAFA;
 }
 
 .wrapperContainer-light {
@@ -28,4 +29,10 @@ a {
 
 .wrapperContainer-dark2 {
     background-color: #003464;
+    color: #FAFAFA;
+}
+
+.container {
+    max-width: 127.6rem;
+    margin: auto;
 }
