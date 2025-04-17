@@ -60,3 +60,7 @@ nav a {
     gap: .6rem;
     list-style-type: none;
 }
+
+.header_nav a:hover {
+    background-color: black;
+}
