@@ -14,6 +14,10 @@ a {
     font-size: 1.6rem;;
 }
 
+h1 {
+    font-size: 4.8rem;
+}
+
 nav a {
     color: inherit;
 }
@@ -22,6 +26,14 @@ nav a {
     text-transform: uppercase;
 }
 
+.btn {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
+}
 .wrapperContainer-dark {
     background-color: #2A2A2A;
     color: #FAFAFA;
@@ -63,4 +75,19 @@ nav a {
 
 .header_nav a:hover {
     background-color: black;
+}
+
+.wrapperContainer-hero {
+    background-image: linear-gradient(white, var(--primary-color)); /* background image sempre para gardientes*/
+}
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.hero_title {
+    margin-bottom: 4rem;
 }
